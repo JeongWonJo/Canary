@@ -6,6 +6,11 @@ Canary is a smart guide clip for the visually-impaired, which helps meet their s
 Canary will widen the spectrum of assist devices for white cane users, and increase accessibility to the benefits of IT for the visually-impaired in general.
 
 
+
+
+
+
+
 # Tutorial Jupyter Notebook
 This tutorial consists the codes that:
   1. detects yellow parts on the road
