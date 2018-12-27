@@ -15,10 +15,14 @@ camera = PiCamera()
 camera.resolution = (640,480)
 camera.framerate = 32
 rawCapture = PiRGBArray(camera, size=(640,480))
-#camera.start_preview()
 
-modelFullPath = '/home/pi/Desktop/output/output_graph.pb'         # the path to the training model
-labelsFullPath = '/home/pi/Desktop/output/output_labels.txt'      # the path to the text file that contains labels
+
+# the path to the transferred trained model
+modelFullPath = '/home/pi/Desktop/output/output_graph.pb' 
+
+# the path to the text file that contains labels 
+# in this case, the text file contains 'escalator', 'stair', 'crosswalk', 'escalator' delimited by \n
+labelsFullPath = '/home/pi/Desktop/output/output_labels.txt'      
 
 
 # the function that creates the audio file (notices the user of the obstacle)
