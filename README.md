@@ -15,4 +15,7 @@ Canary will widen the spectrum of assist devices for white cane users, and incre
 This tutorial consists the codes that:
   1. detects yellow parts on the road
   2. distinguishes circular/linear tactile pavements
-  
+ 
+ 
+ # realtime_obstacle_detection.py
+ This codes consists the codes that let the raspberry pi to recognize obstacles with Tensorflow trained model
